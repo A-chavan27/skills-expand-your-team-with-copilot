@@ -325,7 +325,8 @@ document.addEventListener("DOMContentLoaded", () => {
       name.includes("theater") ||
       name.includes("drama") ||
       desc.includes("creative") ||
-      desc.includes("paint")
+      desc.includes("paint") ||
+      desc.includes("manga")
     ) {
       return "arts";
     } else if (
